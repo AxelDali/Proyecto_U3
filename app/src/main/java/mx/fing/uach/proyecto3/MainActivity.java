@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendUrlDali(View view) {
         Intent intent = new Intent(this, Curriculum.class);
-        String message = "https://ae7dad0cb9bf.ngrok.io/329881";
+        String message = "https://e65f148e9ebd.ngrok.io/329881";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 
     public void sendUrlCota(View view) {
         Intent intent = new Intent(this, Curriculum.class);
-        String message = "https://ae7dad0cb9bf.ngrok.io/329701";
+        String message = "https://e65f148e9ebd.ngrok.io/329701";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }

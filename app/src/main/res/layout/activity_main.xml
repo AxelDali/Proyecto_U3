@@ -12,8 +12,12 @@
         android:layout_height="wrap_content"
         android:onClick="sendUrlDali"
         android:text="Axel Dalí Gómez Morales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="81dp" />
+        app:layout_constraintVertical_bias="0.439" />
 
     <Button
         android:id="@+id/txtCota"
@@ -21,6 +25,10 @@
         android:layout_height="wrap_content"
         android:onClick="sendUrlCota"
         android:text="Daniel Alberto Cota Ochoa"
-        app:layout_constraintTop_toBottomOf="@+id/txtDali"
-        tools:layout_editor_absoluteX="72dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
 </androidx.constraintlayout.widget.ConstraintLayout>

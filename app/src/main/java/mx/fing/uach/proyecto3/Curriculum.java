@@ -26,7 +26,10 @@ public class Curriculum extends AppCompatActivity {
         Intent intent = getIntent();
         String url = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        TextView txtName = findViewById(R.id.txtName);
+        TextView txtNm = findViewById(R.id.txtNm);
+        TextView txtB = findViewById(R.id.txtB);
+        TextView txtSklls = findViewById(R.id.txtSklls);
+        TextView txtDccn = findViewById(R.id.txtDccn);
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
@@ -34,12 +37,14 @@ public class Curriculum extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 CV cv = new Gson().fromJson(response.toString(), CV.class);
-                txtName.setText(cv.name);
+                txtNm.setText(cv.name);
+                txtB.setText(cv.bio);
+                txtSklls.setText(cv.skills);
+                txtDccn.setText(cv.education);
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-
             }
         });
 
