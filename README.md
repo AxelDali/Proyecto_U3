@@ -47,7 +47,6 @@ Entregable: Cada miembro del equipo deberá subir la liga de su repositorio en g
 
 Los software necesarios son los mencionados en el apartado de Requisitos Previos
 
-
 - :arrow_right: [Git](https://git-scm.com/)
 - :arrow_right: [Linux (Ubuntu)](https://ubuntu.com/)
 
@@ -55,9 +54,6 @@ Los software necesarios son los mencionados en el apartado de Requisitos Previos
 
 - [Curriculum/Server](https://github.com/DanielCota07/Proyecto-U2)
 - [App](https://github.com/AxlDali/Proyecto_U3)
-
-Nota: Para correr el proyecto puede correr el comando: docker run -d --publish 8888:8888 axeldali/proyecto-u2 
-
 
 ## Autores
 
